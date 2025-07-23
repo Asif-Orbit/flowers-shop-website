@@ -1,3 +1,5 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,8 +7,7 @@
 }
 
 /* google font  */
-        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
-
+       
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -119,7 +120,41 @@ section{
     width: 100%;
 }
 
-/* our plant section */
+/* our plant and card section */
+.plant-card-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    margin-top: 50px;
+}
+.plant-card{
+    text-align: center;
+
+}
+.card-image{
+    width: 100%;
+}
+.card-title{
+    font-size: 1.375rem;
+    font-weight: 500;
+    color: #111111;
+    margin-top: 30px;
+}
+.card-price{
+    font-size: 1.375rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+.cart-btn{
+    width: 100%;
+    padding: 20px 0;
+    color: #FFFFFF;
+    font-weight: 600;
+    background-color: #E95A08;
+    border: none;
+}
 
 
 
@@ -149,6 +184,33 @@ section{
     
     .banner-sub-title{
         font-size: 0.875rem;
+    }
+
+    .section-title{
+        font-size: 1.5rem;
+    }
+    .section-sub-title{
+        font-size: 0.875rem;
+        margin: 16px  28px 0 28px;
+
+    }
+    .plant-card-content{
+    grid-template-columns: repeat(2,1fr);
+    margin:0 16px ;
+    margin-top: 28px;
+    }
+    .plant-card{
+        max-width: 171px;
+    }
+    .card-title{
+    font-size: 1rem;
+    }
+    .card-price{
+    font-size: 1rem;
+    }
+    .cart-btn{
+        font-size: 1rem;
+        padding: 20px 0;
     }
     
 
