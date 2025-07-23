@@ -42,6 +42,11 @@
 
 }
 
+.text-center{
+    text-align: center;
+}
+
+
 
 
 
@@ -181,8 +186,95 @@ section{
 .plant-lover-content{
   max-width: 530px;
 }
-
-
+/* discount plant section style  */
+.discount-plant{
+    display: flex;
+    text-align: center;
+    gap: 28px;
+}
+.discount-plant img{
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    
+}
+.small-card{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+.bloom{
+    position: relative;
+    
+}
+.overlay-bloom{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 14px;
+}
+.off-60, .off-30{
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.ana{
+    position: relative;
+}
+.overlay-ana{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 14px;
+}
+.zabo{
+    position: relative;
+    
+}
+.overlay-zabo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 14px;
+}
+.off-25{
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.shop-now{
+    background-color: transparent;
+    color: #FFFFFF;
+    border: none;
+    border-bottom: 2px solid #FFFFFF;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
 /* media query for small device  */
 @media screen and (max-width:574px) {
     .small-device-hide{
@@ -244,5 +336,13 @@ section{
     .plant-lover-content{
         margin-top: 18px;
     }
-
+    .discount-plant{
+    display: grid;
+    grid-template-columns: 1fr; 
+    margin-left: 16px;
+    margin-right: 16px;
+    }
+    .off-25{
+        font-size: 1.25rem;
+    }
 }
