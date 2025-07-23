@@ -65,6 +65,11 @@ main {
 section{
     margin-top: 120px;
 }
+/* footer style  */
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 /* menu style  */
 .menu {
@@ -275,6 +280,43 @@ section{
     font-size: 1em;
     font-weight: 600;
 }
+
+
+
+/* footer section style */
+.subscribe-content{
+    background-image:linear-gradient(rgba(7, 51, 79, 0.4)), url(assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 535px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    
+}
+.subscribe-content h2{
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.subscribe-content input{
+    padding: 16px 500px 16px 20px;
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    background-color: #FFFFFF;
+}
+.subscribe-content button{
+    padding: 16px 53px;
+    color: #FFFFFF;
+    background-color: #E95A08;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    
+}
 /* media query for small device  */
 @media screen and (max-width:574px) {
     .small-device-hide{
@@ -344,5 +386,21 @@ section{
     }
     .off-25{
         font-size: 1.25rem;
+    }
+    .subscribe-content{
+        margin-top: 45px;
+        height: 275px;
+    }
+    .subscribe-content h2{
+        font-size: 1.25rem;
+
+    }
+    .subscribe-content input{
+
+        padding: 16px 0px 16px 20px;
+    }
+    .subscribe-content button{
+
+        padding: 16px 12px;
     }
 }
