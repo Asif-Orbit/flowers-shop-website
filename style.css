@@ -156,6 +156,31 @@ section{
     border: none;
 }
 
+/* flower and plant lover style */
+.plant-lover-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-top: 80px;
+}
+.trusted-badge{
+    max-width: 286px;
+    position: absolute;
+    left: 347px;
+    top: -45px;
+}
+.plant-lover-image img{
+    width: 100%;
+    
+}
+.plant-lover-content ul li{
+    list-style-position: inside;
+    margin-top: 20px;
+}
+.plant-lover-content{
+  max-width: 530px;
+}
 
 
 /* media query for small device  */
@@ -212,6 +237,12 @@ section{
         font-size: 1rem;
         padding: 20px 0;
     }
-    
+    .plant-lover-container{
+        flex-direction: column;
+        padding: 0 16px;
+    }
+    .plant-lover-content{
+        margin-top: 18px;
+    }
 
 }
