@@ -191,7 +191,7 @@ footer{
     
 }
 .plant-lover-content ul li{
-    list-style-position: inside;
+    margin-left: 30px;
     margin-top: 20px;
 }
 .plant-lover-content{
@@ -289,7 +289,7 @@ footer{
 
 
 
-/* Newsletter subscribe seciton style */
+/* Newsletter subscribe section style */
 .subscribe-content{
     background-image:linear-gradient(rgba(7, 51, 79, 0.4)), url(assets/news-letter-bg.png);
     background-repeat: no-repeat;
@@ -423,6 +423,11 @@ footer{
     grid-template-columns: 1fr; 
     margin-left: 16px;
     margin-right: 16px;
+    }
+    .overlay-bloom,
+    .overlay-ana,
+    .overlay-zabo{
+        background-color: rgba(0, 0, 0, 0.6);
     }
     .off-25{
         font-size: 1.25rem;
