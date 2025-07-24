@@ -29,6 +29,7 @@
     font-size: 3.125rem;
     font-weight: bold;
     color: #000000;
+    margin-bottom: 16px;
 }
 .section-content{
     text-align: center;
@@ -54,6 +55,10 @@
 header {
     max-width: 1140px;
     margin: 0 auto;
+}
+/* body style */
+body{
+    background-color: #F5F8FF;
 }
 
 /* main style */
@@ -179,6 +184,7 @@ footer{
     position: absolute;
     left: 347px;
     top: -45px;
+    
 }
 .plant-lover-image img{
     width: 100%;
@@ -283,7 +289,7 @@ footer{
 
 
 
-/* footer section style */
+/* Newsletter subscribe seciton style */
 .subscribe-content{
     background-image:linear-gradient(rgba(7, 51, 79, 0.4)), url(assets/news-letter-bg.png);
     background-repeat: no-repeat;
@@ -317,6 +323,40 @@ footer{
     cursor: pointer;
     
 }
+/* footer section style */
+.footer-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-description{
+    max-width: 359px;
+    margin-top: 16px;
+
+}
+.quick-link li{
+    list-style: none;
+    margin-bottom: 26px;
+}
+.quick-link li a{
+    text-decoration: none;
+    color: #6B7280;
+}
+.quick-link li a:hover{
+    color: #000000;
+}
+.social-logo img{
+    margin-left: 24px;
+}
+.twitter{
+    padding: 9px 8px;
+}
+
+
 /* media query for small device  */
 @media screen and (max-width:574px) {
     .small-device-hide{
@@ -402,5 +442,19 @@ footer{
     .subscribe-content button{
 
         padding: 16px 12px;
+    }
+
+    .footer-content{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .footer-description{
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .social-logo img{
+        margin-left: 0px;
+        margin-right: 24px;
+        
     }
 }
