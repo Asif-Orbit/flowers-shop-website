@@ -179,11 +179,23 @@ footer{
     position: relative;
     padding-top: 80px;
 }
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
 .trusted-badge{
     max-width: 286px;
     position: absolute;
     left: 347px;
     top: -45px;
+    filter: drop-shadow(-4px 10px 4px rgba(0, 0, 0, 0.25));
+    animation: spin 10s linear infinite;
+    
     
 }
 .plant-lover-image img{
